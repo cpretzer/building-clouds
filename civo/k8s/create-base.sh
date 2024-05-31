@@ -7,7 +7,7 @@ set -x
 CIVO_BIN="${CIVO_EXE:-civo}"
 CIVO_TOKEN="${CIVO_TOKEN:-}"
 YQ_BIN="yq"
-APP_NAME=test # TODO: make this a parameter
+APP_NAME=linux-test # TODO: make this a parameter
 REGION="${CIVO_REGION:-LON1}"
 # TODO: check for curl
 
